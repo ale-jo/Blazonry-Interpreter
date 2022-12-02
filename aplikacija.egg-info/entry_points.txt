@@ -1,0 +1,6 @@
+[textx_generators]
+blazonry_txt = blazonry:blazonry_generate_files
+
+[textx_languages]
+blazonry = blazonry:blazonry_language
+

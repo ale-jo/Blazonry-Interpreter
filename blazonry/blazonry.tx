@@ -1,0 +1,7 @@
+Program:	
+		field=Field
+;
+Field: color=Color
+;
+Color: 'Azure'| 'Vert'
+;

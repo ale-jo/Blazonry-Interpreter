@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aplikacija.egg-info/PKG-INFO
+aplikacija.egg-info/SOURCES.txt
+aplikacija.egg-info/dependency_links.txt
+aplikacija.egg-info/entry_points.txt
+aplikacija.egg-info/not-zip-safe
+aplikacija.egg-info/requires.txt
+aplikacija.egg-info/top_level.txt
+blazonry/__init__.py
