@@ -1,4 +1,4 @@
-# aplikacija
+# Blazonry interpreter
 
 Interpretation of Blazonry language
 
