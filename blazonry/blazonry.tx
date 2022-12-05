@@ -3,7 +3,7 @@ Program:
 ;
 SimpleField: color=Color
 ;
-ComplexField: 'Party'? party=Party color=Color 'and' color=Color
+ComplexField: 'Party'? party=Party color=Color 'and' color=Color ('a' ordinary=Ordinaries color=Color)?
 ;
 Party: ('Per' ordinary=Ordinaries)| MultiPart 
 ;
@@ -11,5 +11,5 @@ MultiPart: 'Bary'|'Paly'|'Bendy'|'Lozengy'|'Gyronny'
 ;
 Ordinaries: 'Pale'|'Fess'|'Bend'|'Saltire'|'Chevron'|'Pall'
 ;
-Color: 'Azure'| 'Vert'
+Color: 'Azure'| 'Vert'|'Gules'|'Sable'|'Purpure'|'Ermine'|'Vair'|'Or'|'Argent'
 ;
