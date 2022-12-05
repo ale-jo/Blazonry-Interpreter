@@ -1,7 +1,15 @@
 Program:	
-		field=Field
+		field=SimpleField|ComplexField
 ;
-Field: color=Color
+SimpleField: color=Color
+;
+ComplexField: 'Party'? party=Party color=Color 'and' color=Color
+;
+Party: ('Per' ordinary=Ordinaries)| MultiPart 
+;
+MultiPart: 'Bary'|'Paly'|'Bendy'|'Lozengy'|'Gyronny'
+;
+Ordinaries: 'Pale'|'Fess'|'Bend'|'Saltire'|'Chevron'|'Pall'
 ;
 Color: 'Azure'| 'Vert'
 ;

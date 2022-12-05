@@ -22,6 +22,7 @@ def blazonry_language():
 @generator('blazonry', 'txt')
 def blazonry_generate_files(metamodel, model, output_path, overwrite, debug): 
     "A generator function that produce txt report from model."
-    input_file = model._tx_filename
-    output_dir = output_path if output_path else dirname(input_file)
-    print(output_dir, ' output dir')
+    # input_file = model._tx_filename
+    # output_dir = output_path if output_path else dirname(input_file)
+    # print(output_dir, ' output dir')
+    print("success")
