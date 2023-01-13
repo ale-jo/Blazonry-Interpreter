@@ -1,9 +1,11 @@
-Program:	
-		field=SimpleField|ComplexField
+
+Program: fileds = Field
+;
+Field: field=ComplexField|SimpleField 
 ;
 SimpleField: color=Color
 ;
-ComplexField: 'Party'? party=Party color=Color 'and' color=Color ('a' ordinary=Ordinaries color=Color)?
+ComplexField: 'Party'? party=Party? color+=Color charges=Charges? 
 ;
 Party: ('Per' ordinary=Ordinaries)| MultiPart 
 ;
@@ -11,5 +13,27 @@ MultiPart: 'Bary'|'Paly'|'Bendy'|'Lozengy'|'Gyronny'
 ;
 Ordinaries: 'Pale'|'Fess'|'Bend'|'Saltire'|'Chevron'|'Pall'
 ;
-Color: 'Azure'| 'Vert'|'Gules'|'Sable'|'Purpure'|'Ermine'|'Vair'|'Or'|'Argent'
+Ordinary: 'a' ordinary=Ordinaries color=Color
+;
+Charges:  ChargesNoOrdinary|ChargesThereIsOrdinary
+;
+ChargesThereIsOrdinary: ordinary=Ordinary ('between' charge = Charge )?
+;
+ChargesNoOrdinary: charge +=Charge 
+;
+SimpleCharges: 'wolf'| 'pellet'|'fetterlock'|'dagger'|'fleurs de lis'|'mullet'|'crescents'|'maple leaf'|'sword'
+;
+Charge: (('a'|'an')|(number = Number)) charge=SimpleCharges 's'? position=Position? color+=Color? 'between'?
+;
+Position: 'in' value= StandardPosition
+;
+StandardPosition: Ordinaries|Base|Point|'dexter side'|'sinister side'
+;
+Base: ('dexter'|'middle'|'sinister')? 'base'
+;
+Point: ('honour'|'fess'|'navel')? 'point'
+;
+Color: ('Azure'| 'Vert'|'Gules'|'Sable'|'Purpure'|'Ermine'|'Vair'|'Or'|'Argent') 'and'? ','?
+;
+Number: 'two'|'three'|'four'|'five'|'six'|'seven'|'eight'|'nine'|'ten'
 ;
