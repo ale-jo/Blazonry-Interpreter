@@ -1,11 +1,11 @@
 
-Program: fileds = Field
+Program: fileds *= Field
 ;
-Field: field=ComplexField|SimpleField 
+Field: field=ComplexField|SimpleField
 ;
 SimpleField: color=Color
 ;
-ComplexField: 'Party'? party=Party? color+=Color charges=Charges? 
+ComplexField: 'Party'? party=Party? color+=Color charges=Charges? chief=Chief?
 ;
 Party: ('Per' ordinary=Ordinaries)| MultiPart 
 ;
@@ -17,13 +17,15 @@ Ordinary: 'a' ordinary=Ordinaries color=Color
 ;
 Charges:  ChargesNoOrdinary|ChargesThereIsOrdinary
 ;
-ChargesThereIsOrdinary: ordinary=Ordinary ('between' charge = Charge )?
+ChargesThereIsOrdinary: 'on'? ordinary=Ordinary ('between' chargesOnTheFiled = Charge )? ','? chargesOnTheOrdinary=Charge?
 ;
 ChargesNoOrdinary: charge +=Charge 
 ;
-SimpleCharges: 'wolf'| 'pellet'|'fetterlock'|'dagger'|'fleurs de lis'|'mullet'|'crescents'|'maple leaf'|'sword'
+SimpleCharges: 'wolf'| 'pellet'|'fetterlock'|'dagger'|'fleurs de lis'|'mullet'|'crescents'|'maple leaf'|'sword'|'rose'|'snowflake'
 ;
 Charge: (('a'|'an')|(number = Number)) charge=SimpleCharges 's'? position=Position? color+=Color? 'between'?
+;
+Chief: '; on a chief' color = Color charge+=Charge 
 ;
 Position: 'in' value= StandardPosition
 ;
