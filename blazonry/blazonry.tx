@@ -5,7 +5,7 @@ Field: field=ComplexField|SimpleField
 ;
 SimpleField: color=Color
 ;
-ComplexField: 'Party'? party=Party? color+=Color charges=Charges? chief=Chief?
+ComplexField: 'Party'? party=Party? color+=Color[/,|and/]?  charges=Charges? chief=Chief?  bordure=Bordure? '.'   
 ;
 Party: ('Per' ordinary=Ordinaries)| MultiPart 
 ;
@@ -19,13 +19,17 @@ Charges:  ChargesNoOrdinary|ChargesThereIsOrdinary
 ;
 ChargesThereIsOrdinary: 'on'? ordinary=Ordinary ('between' chargesOnTheFiled = Charge )? ','? chargesOnTheOrdinary=Charge?
 ;
-ChargesNoOrdinary: charge +=Charge 
+ChargesNoOrdinary: charge +=Charge
 ;
-SimpleCharges: 'wolf'| 'pellet'|'fetterlock'|'dagger'|'fleurs de lis'|'mullet'|'crescents'|'maple leaf'|'sword'|'rose'|'snowflake'
+SimpleCharges: ('wolf'| 'pellet'|'fetterlock'|'dagger'|'fleurs de lis'|'mullet'|'crescents'|'maple leaf'|'sword'|'rose'|'snowflake'|'cup') 's'?
 ;
-Charge: (('a'|'an')|(number = Number)) charge=SimpleCharges 's'? position=Position? color+=Color? 'between'?
+Charge: (('a'|'an')|(number = Number)) charge=SimpleCharges position=Position? color+=Color[',']? 'between'? 'and'?
 ;
-Chief: '; on a chief' color = Color charge+=Charge 
+Chief: '; on a chief' color = Color ',' charge+=Charge 
+;
+Bordure: ', a bordure' color=Color 'charged with'  charges +=BordureCharge
+;
+BordureCharge: (('a'|'an')|(number = Number)) charge=SimpleCharges  color+=Color[',']? ','? numbers+=Number[/,|and/]?
 ;
 Position: 'in' value= StandardPosition
 ;
@@ -35,7 +39,7 @@ Base: ('dexter'|'middle'|'sinister')? 'base'
 ;
 Point: ('honour'|'fess'|'navel')? 'point'
 ;
-Color: ('Azure'| 'Vert'|'Gules'|'Sable'|'Purpure'|'Ermine'|'Vair'|'Or'|'Argent') 'and'? ','?
+Color: ('Azure'| 'Vert'|'Gules'|'Sable'|'Purpure'|'Ermine'|'Vair'|'Or'|'Argent') 
 ;
-Number: 'two'|'three'|'four'|'five'|'six'|'seven'|'eight'|'nine'|'ten'
+Number: 'one'|'two'|'three'|'four'|'five'|'six'|'seven'|'eight'|'nine'|'ten'
 ;
