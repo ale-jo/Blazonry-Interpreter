@@ -5,7 +5,7 @@ Field: field=ComplexField|SimpleField
 ;
 SimpleField: color=Color
 ;
-ComplexField: 'Party'? party=Party? color+=Color[/,|and/]?  charges=Charges? chief=Chief?  bordure=Bordure? '.'   
+ComplexField: 'Party'? party=Party? color+=Color[/,|and/]  charges=Charges? chief=Chief?  bordure=Bordure? cadency=Cadency? '.'   
 ;
 Party: ('Per' ordinary=Ordinaries)| MultiPart 
 ;
@@ -30,6 +30,8 @@ Chief: '; on a chief' color = Color ',' charge+=Charge
 Bordure: ', a bordure' color=Color 'charged with'  charges +=BordureCharge
 ;
 BordureCharge: (('a'|'an')|(number = Number)) charge=SimpleCharges  color+=Color[',']? ','? numbers+=Number[/,|and/]?
+;
+Cadency:  'with' (('a'|'an')|(number = Number)) charge=SimpleCharges  color+=Color[',']? ','?
 ;
 Position: 'in' value= StandardPosition
 ;
