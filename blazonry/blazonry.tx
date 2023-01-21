@@ -5,7 +5,7 @@ Field: field=ComplexField|SimpleField
 ;
 SimpleField: color=Color
 ;
-ComplexField: 'Party'? party=Party? color+=Color[/,|and/]  charges=Charges? chief=Chief?  bordure=Bordure? cadency=Cadency? '.'   
+ComplexField: 'Party'? party=Party? line= LinesOfPartition? color+=Color[/,|and/]  charges=Charges? chief=Chief?  bordure=Bordure? cadency=Cadency? '.'   
 ;
 Party: ('Per' ordinary=Ordinaries)| MultiPart 
 ;
@@ -36,6 +36,8 @@ Cadency:  'with' (('a'|'an')|(number = Number)) charge=SimpleCharges  color+=Col
 Position: 'in' value= StandardPosition
 ;
 StandardPosition: Ordinaries|Base|Point|'dexter side'|'sinister side'
+;
+LinesOfPartition: 'dancy' | 'dovetailed' | 'embattled' | 'enarched' | 'engrailed' | 'flory' | 'indented' | 'nebuly' | 'potenty' | 'raguly' | 'rayonne' | 'wavy' | 'urdy'
 ;
 Base: ('dexter'|'middle'|'sinister')? 'base'
 ;

@@ -1,0 +1,93 @@
+
+    digraph textX {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+2665254267072[ label="{Program|}"]
+
+2665254243072[ label="{Field|}"]
+
+2665254241152[ label="{SimpleField|color: Color\l}"]
+
+2665254268032[ label="{ComplexField|line: LinesOfPartition\lcolor: list[Color]\l}"]
+
+2665254244992[ label="{Party|ordinary: Ordinaries\l}"]
+
+2665254290112[ label="{Ordinary|ordinary: Ordinaries\lcolor: Color\l}"]
+
+2665254283392[ label="{*Charges|}"]
+
+2665254265152[ label="{ChargesThereIsOrdinary|}"]
+
+2665254299712[ label="{ChargesNoOrdinary|}"]
+
+2665254273792[ label="{Charge|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\l}"]
+
+2665254296832[ label="{Chief|color: Color\l}"]
+
+2665254285312[ label="{Bordure|color: Color\l}"]
+
+2665254295872[ label="{BordureCharge|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\lnumbers: list[Number]\l}"]
+
+2665254286272[ label="{Cadency|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\l}"]
+
+2665254276672[ label="{Position|value: StandardPosition\l}"]
+
+
+
+2665254267072 -> 2665254243072[arrowtail=diamond, dir=both, headlabel="fileds 0..*"]
+2665254243072 -> 2665254268032[arrowtail=diamond, dir=both, headlabel="field "]
+2665254268032 -> 2665254244992[arrowtail=diamond, dir=both, headlabel="party "]
+2665254268032 -> 2665254283392[arrowtail=diamond, dir=both, headlabel="charges "]
+2665254268032 -> 2665254296832[arrowtail=diamond, dir=both, headlabel="chief "]
+2665254268032 -> 2665254285312[arrowtail=diamond, dir=both, headlabel="bordure "]
+2665254268032 -> 2665254286272[arrowtail=diamond, dir=both, headlabel="cadency "]
+2665254283392 -> 2665254299712 [dir=back]
+2665254283392 -> 2665254265152 [dir=back]
+2665254265152 -> 2665254290112[arrowtail=diamond, dir=both, headlabel="ordinary "]
+2665254265152 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="chargesOnTheFiled "]
+2665254265152 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="chargesOnTheOrdinary "]
+2665254299712 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="charge 1..*"]
+2665254273792 -> 2665254276672[arrowtail=diamond, dir=both, headlabel="position "]
+2665254296832 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="charge 1..*"]
+2665254285312 -> 2665254295872[arrowtail=diamond, dir=both, headlabel="charges 1..*"]
+match_rules [ shape=plaintext, label=< <table>
+	<tr>
+		<td><b>Base</b></td><td>dexter|middle|sinister? base</td>
+	</tr>
+	<tr>
+		<td><b>Color</b></td><td>Azure|Vert|Gules|Sable|Purpure|Ermine|Vair|Or|Argent</td>
+	</tr>
+	<tr>
+		<td><b>LinesOfPartition</b></td><td>dancy|dovetailed|embattled|enarched|engrailed|flory|indented|nebuly|potenty|raguly|rayonne|wavy|urdy</td>
+	</tr>
+	<tr>
+		<td><b>MultiPart</b></td><td>Bary|Paly|Bendy|Lozengy|Gyronny</td>
+	</tr>
+	<tr>
+		<td><b>Number</b></td><td>one|two|three|four|five|six|seven|eight|nine|ten</td>
+	</tr>
+	<tr>
+		<td><b>Ordinaries</b></td><td>Pale|Fess|Bend|Saltire|Chevron|Pall</td>
+	</tr>
+	<tr>
+		<td><b>Point</b></td><td>honour|fess|navel? point</td>
+	</tr>
+	<tr>
+		<td><b>SimpleCharges</b></td><td>wolf|pellet|fetterlock|dagger|fleurs de lis|mullet|crescents|maple leaf|sword|rose|snowflake|cup s?</td>
+	</tr>
+	<tr>
+		<td><b>StandardPosition</b></td><td>dexter side|sinister side</td>
+	</tr>
+</table> >]
+
+
+}
