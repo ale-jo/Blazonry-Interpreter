@@ -1,62 +1,51 @@
-Azure.
-
-Azure a Bend Gules.
-
-Vert a Pale Or.
-
-Per Chevron Azure and Vert.
-
-Party Per Chevron Azure and Vert.
-
-Per Chevron Azure and Vert a Bend Gules.
-
-Per Chevron Azure and Vert a Bend Gules between two pellets.
-
-Per Chevron Azure and Vert a Bend Gules between two daggers Or, Purpure.
-
-Gules three fetterlocks Azure between two daggers Sable.
-
-Gules three fetterlocks in Pale Azure between two daggers Sable.
-
-Gules three fetterlocks in Pale Azure two daggers in base Sable.
-
-Gules three fetterlocks in Pale Azure two daggers in dexter base Sable.
-
-Gules three fetterlocks in navel point Azure two daggers in dexter base Sable.
-
-Gules three fetterlocks in navel point Azure two daggers in Fess Sable.
-
-Argent on a Bend Sable three fleurs de lis Or; on a chief Azure ,three snowflakes Argent.
-
-Or; on a chief Azure, three snowflakes Argent.
-
-Argent a mullet Sable between three fleurs de lis in Pale  Azure and a rose in base Gules.
-
-Argent on a Bend Sable three fleurs de lis Or.
-
-Argent on a Bend Sable between two crescents Azure, three fleurs de lis Or.
-
-Bary Gules, Azure, Argent.
-
-Party Per Pale Or, a bordure Azure charged with six mullets Argent, three, two, one.
-
-Argent, a bordure Azure charged with six mullets Or, three, two, one.
-
-Bary Gules, Azure, Argent, a bordure Azure charged with six mullets Or, three, two, one.
-
-Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one.
-
-Gules a wolf Or, a bordure Argent charged with six pellets Vert, three, two and one.
-
+Azure. //1. a)
+Per Chevron Azure and Vert. //1. b)
+Party Per Chevron Azure and Vert.  //1. b) party
+Azure a Bend Gules. // 2. ordinary
+Vert a Pale Or. // 2. ordinary
+Per Chevron Azure and Vert a Bend Gules. //1. i 2.
+Per Chevron Azure and Vert a Bend Gules between two pellets. //3.a) -> 1.b) + 2.
+Per Chevron Azure and Vert a Bend Gules between two daggers Or, Purpure. //3.a) dodata boja nabojima
+Gules three fetterlocks Azure between two daggers Sable. //3.b) bez navedenih pozicija za naboje
+Gules three fetterlocks in Pale Azure between two daggers Sable. //3.b) sa pozicijom za jedan naboj
+Gules three fetterlocks in Pale Azure two daggers in base Sable. //3.b) sa pozicijama za sve naboje
+Gules three fetterlocks in Pale Azure two daggers in dexter base Sable. //3.b) sa pozicijama za sve naboje
+Gules three fetterlocks in navel point Azure two daggers in dexter base Sable. //3.b) sa pozicijama za sve naboje
+Gules three fetterlocks in navel point Azure three mullets in Fess Sable.//3.b) sa pozicijama za sve naboje
+Argent on a Bend Sable three fleurs de lis Or. //4.
+Argent on a Bend Sable between two crescents Azure, three fleurs de lis Or.//4.
+Argent on a Bend Sable three fleurs de lis Or; on a chief Azure, three snowflakes Argent. //5.
+Or; on a chief Azure, three snowflakes Argent. //5.
+Party Per Pale Or, a bordure Azure charged with six mullets Argent, three, two, one. //6.
+Party Per Pale Or, a bordure Azure charged with six mullets Argent, three, two. //6.
+Argent, a bordure Azure charged with six mullets Or, three, two, one. //6.
+Argent, a bordure Azure charged with six mullets Or. //6.
+Party Per Pale Or, a bordure Azure charged with six mullets Argent, three, three. //6.
+Gules a wolf Or, a bordure Argent charged with six pellets Vert, three, two and one. //6.
 Argent a cup Gules; on a chief Gules, three fleurs de lis Or, a bordure Azure charged with three mullets Or.
+Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one with a maple leaf Or. //7.
+Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one with a maple leaf Or, Argent. //7.
+Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one with five maple leafs Or, Argent, Purpure, Azure.
+Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one.
+Argent a mullet Sable between two fleurs de lis in Pale Azure and a rose in base Gules.
 
-Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one with a maple leaf Or.
 
-Per Chevron Azure and Vert on a Bend Gules between two pellets, three fleurs de lis Argent, a bordure Gules charged with six mullets Sable, three, two and one with five maple leaf Or, Argent, Purpure, Azure.
-
-Per Chevron  enarched Or, Azure.
-
-Per Bend embattled Argent and Sable.
-
-Per Fess engrailed Gules and Vert.
-
+//
+//Bary Gules, Azure, Argent.
+//
+//Bary Gules, Azure, Argent with a double-headed Eagle
+//
+//Bary Gules, Azure, Argent, a bordure Azure charged with six mullets Or, three, two, one.
+//
+//
+//
+//
+//
+//
+//Per Chevron  enarched Or, Azure.
+//
+//Per Bend embattled Argent and Sable.
+//
+//Per Fess engrailed Gules and Vert.
+//
+//

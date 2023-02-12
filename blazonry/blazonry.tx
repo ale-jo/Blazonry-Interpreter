@@ -1,13 +1,13 @@
 
-Program: fileds *= Field
+Program: fields *= Field
 ;
-Field: field=ComplexField|SimpleField
+Field: SimpleField|ComplexField
 ;
-SimpleField: color=Color
+SimpleField: color=Color '.'
 ;
 ComplexField: 'Party'? party=Party? line= LinesOfPartition? color+=Color[/,|and/]  charges=Charges? chief=Chief?  bordure=Bordure? cadency=Cadency? '.'   
 ;
-Party: ('Per' ordinary=Ordinaries)| MultiPart 
+Party: MultiPart | ('Per ' Ordinaries)
 ;
 MultiPart: 'Bary'|'Paly'|'Bendy'|'Lozengy'|'Gyronny'
 ;
@@ -46,4 +46,7 @@ Point: ('honour'|'fess'|'navel')? 'point'
 Color: ('Azure'| 'Vert'|'Gules'|'Sable'|'Purpure'|'Ermine'|'Vair'|'Or'|'Argent') 
 ;
 Number: 'one'|'two'|'three'|'four'|'five'|'six'|'seven'|'eight'|'nine'|'ten'
+;
+Comment:
+    /\/\/.*$/
 ;

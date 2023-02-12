@@ -11,54 +11,52 @@
     edge[dir=black,arrowtail=empty]
 
 
-2665254267072[ label="{Program|}"]
+1868794448512[ label="{Program|}"]
 
-2665254243072[ label="{Field|}"]
+1868794459072[ label="{*Field|}"]
 
-2665254241152[ label="{SimpleField|color: Color\l}"]
+1868794428352[ label="{SimpleField|color: Color\l}"]
 
-2665254268032[ label="{ComplexField|line: LinesOfPartition\lcolor: list[Color]\l}"]
+1868794429312[ label="{ComplexField|party: Party\lline: LinesOfPartition\lcolor: list[Color]\l}"]
 
-2665254244992[ label="{Party|ordinary: Ordinaries\l}"]
+1868794467712[ label="{Ordinary|ordinary: Ordinaries\lcolor: Color\l}"]
 
-2665254290112[ label="{Ordinary|ordinary: Ordinaries\lcolor: Color\l}"]
+1868794436992[ label="{*Charges|}"]
 
-2665254283392[ label="{*Charges|}"]
+1868794461952[ label="{ChargesThereIsOrdinary|}"]
 
-2665254265152[ label="{ChargesThereIsOrdinary|}"]
+1868794442752[ label="{ChargesNoOrdinary|}"]
 
-2665254299712[ label="{ChargesNoOrdinary|}"]
+1868794438912[ label="{Charge|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\l}"]
 
-2665254273792[ label="{Charge|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\l}"]
+1868794472512[ label="{Chief|color: Color\l}"]
 
-2665254296832[ label="{Chief|color: Color\l}"]
+1868794475392[ label="{Bordure|color: Color\l}"]
 
-2665254285312[ label="{Bordure|color: Color\l}"]
+1868794477312[ label="{BordureCharge|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\lnumbers: list[Number]\l}"]
 
-2665254295872[ label="{BordureCharge|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\lnumbers: list[Number]\l}"]
+1868794481152[ label="{Cadency|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\l}"]
 
-2665254286272[ label="{Cadency|number: Number\lcharge: SimpleCharges\lcolor: list[Color]\l}"]
-
-2665254276672[ label="{Position|value: StandardPosition\l}"]
+1868794484032[ label="{Position|value: StandardPosition\l}"]
 
 
 
-2665254267072 -> 2665254243072[arrowtail=diamond, dir=both, headlabel="fileds 0..*"]
-2665254243072 -> 2665254268032[arrowtail=diamond, dir=both, headlabel="field "]
-2665254268032 -> 2665254244992[arrowtail=diamond, dir=both, headlabel="party "]
-2665254268032 -> 2665254283392[arrowtail=diamond, dir=both, headlabel="charges "]
-2665254268032 -> 2665254296832[arrowtail=diamond, dir=both, headlabel="chief "]
-2665254268032 -> 2665254285312[arrowtail=diamond, dir=both, headlabel="bordure "]
-2665254268032 -> 2665254286272[arrowtail=diamond, dir=both, headlabel="cadency "]
-2665254283392 -> 2665254299712 [dir=back]
-2665254283392 -> 2665254265152 [dir=back]
-2665254265152 -> 2665254290112[arrowtail=diamond, dir=both, headlabel="ordinary "]
-2665254265152 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="chargesOnTheFiled "]
-2665254265152 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="chargesOnTheOrdinary "]
-2665254299712 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="charge 1..*"]
-2665254273792 -> 2665254276672[arrowtail=diamond, dir=both, headlabel="position "]
-2665254296832 -> 2665254273792[arrowtail=diamond, dir=both, headlabel="charge 1..*"]
-2665254285312 -> 2665254295872[arrowtail=diamond, dir=both, headlabel="charges 1..*"]
+1868794448512 -> 1868794459072[arrowtail=diamond, dir=both, headlabel="fields 0..*"]
+1868794459072 -> 1868794428352 [dir=back]
+1868794459072 -> 1868794429312 [dir=back]
+1868794429312 -> 1868794436992[arrowtail=diamond, dir=both, headlabel="charges "]
+1868794429312 -> 1868794472512[arrowtail=diamond, dir=both, headlabel="chief "]
+1868794429312 -> 1868794475392[arrowtail=diamond, dir=both, headlabel="bordure "]
+1868794429312 -> 1868794481152[arrowtail=diamond, dir=both, headlabel="cadency "]
+1868794436992 -> 1868794442752 [dir=back]
+1868794436992 -> 1868794461952 [dir=back]
+1868794461952 -> 1868794467712[arrowtail=diamond, dir=both, headlabel="ordinary "]
+1868794461952 -> 1868794438912[arrowtail=diamond, dir=both, headlabel="chargesOnTheFiled "]
+1868794461952 -> 1868794438912[arrowtail=diamond, dir=both, headlabel="chargesOnTheOrdinary "]
+1868794442752 -> 1868794438912[arrowtail=diamond, dir=both, headlabel="charge 1..*"]
+1868794438912 -> 1868794484032[arrowtail=diamond, dir=both, headlabel="position "]
+1868794472512 -> 1868794438912[arrowtail=diamond, dir=both, headlabel="charge 1..*"]
+1868794475392 -> 1868794477312[arrowtail=diamond, dir=both, headlabel="charges 1..*"]
 match_rules [ shape=plaintext, label=< <table>
 	<tr>
 		<td><b>Base</b></td><td>dexter|middle|sinister? base</td>
@@ -77,6 +75,9 @@ match_rules [ shape=plaintext, label=< <table>
 	</tr>
 	<tr>
 		<td><b>Ordinaries</b></td><td>Pale|Fess|Bend|Saltire|Chevron|Pall</td>
+	</tr>
+	<tr>
+		<td><b>Party</b></td><td>Per  Ordinaries</td>
 	</tr>
 	<tr>
 		<td><b>Point</b></td><td>honour|fess|navel? point</td>
