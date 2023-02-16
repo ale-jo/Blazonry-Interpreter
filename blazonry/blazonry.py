@@ -83,9 +83,11 @@ class Blazonry(object):
             'ten':'10',
         }
         
+   
 
-    def interpret(self, model):
+    def interpret(self, model, output_path):
         rbr = 1
+        result_for_file = ""
         for field in model.fields:
 
             if field.__class__.__name__ == "SimpleField":
@@ -96,10 +98,12 @@ class Blazonry(object):
                     # print("pogresna boja stita")
                     break   
                 
-                if field_color != "Ermine" and field_color != "Vair":
+                if field.color != "Ermine" and field.color != "Vair":
                     print(str(rbr) + ". Stit " , field_color + " boje")
+                    result_for_file += str(rbr) + ". Stit " + field_color + " boje" +"\n"
                 else:
                     print(str(rbr) + ". Stit " , field_color)
+                    result_for_file += str(rbr) + ". Stit " + field_color +"\n"
                 rbr +=1
             else:
                 try:
@@ -197,8 +201,21 @@ class Blazonry(object):
                 except Exception as e:
                     print("greska")
                     print(str(e))
+
                 print("" + str(rbr) +".",result)
+                result_for_file += str(rbr) +". " + result + "\n"
                 rbr +=1
+
+        save_in_file(output_path,result_for_file)
+        
+
+
+
+
+def save_in_file(path, result):
+    with open(path, 'w+') as f:
+        f.write(result)
+    print(f"\n---You can also find result in {path}---")
 
 def analyze_colors(self, colors: list):
     result = ""        

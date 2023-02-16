@@ -1,0 +1,34 @@
+1. Stit bele pozadine sa crnim sarama
+2. Stit plave boje
+3. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^
+4. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^
+5. Stit plave boje, sa trakom po levoj dijagonali - crvene boje
+6. Stit zelene boje, sa trakom po sredini vertikalno - zlatne boje
+7. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje
+8. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 sacme
+9. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 bodeza zlatne i ljubicaste boje
+10. Stit crvene boje na kom se nalazi(e) 3 katanca plave boje,  i 2 bodeza crne boje
+11. Stit crvene boje na kom se nalazi(e) 3 katanca plave boje po sredini vertikalno,  i 2 bodeza crne boje
+12. Stit crvene boje na kom se nalazi(e) 3 katanca plave boje po sredini vertikalno,  i 2 bodeza crne boje u donjem delu stita
+13. Stit crvene boje na kom se nalazi(e) 3 katanca plave boje po sredini vertikalno,  i 2 bodeza crne boje dole levo
+14. Stit crvene boje na kom se nalazi(e) 3 katanca plave boje u donjem delu sredista stita,  i 2 bodeza crne boje dole levo
+15. Stit crvene boje na kom se nalazi(e) 3 katanca plave boje u donjem delu sredista stita,  i 3 zvezde crne boje po sredini horizontalno
+16. Stit srebrne boje, sa trakom po levoj dijagonali - crne boje. Na traci(trakama) se nalazi(e) 3 ljiljan(a) zlatne boje
+17. Stit srebrne boje, sa trakom po levoj dijagonali - crne boje, koja se nalazi izmedju 2 polumesec(a) plave boje. Na traci(trakama) se nalazi(e) 3 ljiljan(a) zlatne boje
+18. Stit srebrne boje, sa trakom po levoj dijagonali - crne boje. Na traci(trakama) se nalazi(e) 3 ljiljan(a) zlatne boje. Preko gornje ivice stita nalazi se traka plave boje na kojoj se nalazi(e)  i 3 pahuljice srebrne boje
+19. Stit zlatne boje. Preko gornje ivice stita nalazi se traka plave boje na kojoj se nalazi(e)  i 3 pahuljice srebrne boje
+20. Stit zlatne boje podeljen na dva dela po vertikali. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde srebrne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+21. Neispravan blazon! Naveli ste  6 zvezde, a rasporedjujete 5: 'six mullets Argent three, two'
+22. Stit srebrne boje. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+23. Stit srebrne boje. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje. 
+24. Stit zlatne boje podeljen na dva dela po vertikali. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde srebrne boje: 3 na vrhu, 3 u sredini. 
+25. Stit crvene boje na kom se nalazi(e)  1 vuk zlatne boje. Stit je uokviren trakom srebrne boje na kojoj se nalazi(e) 6 sacme zelene boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+26. Stit srebrne boje na kom se nalazi(e)  1 putir crvene boje. Preko gornje ivice stita nalazi se traka crvene boje na kojoj se nalazi(e)  i 3 ljiljan(a) zlatne boje. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 3 zvezde zlatne boje. 
+27. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 sacme. Na traci(trakama) se nalazi(e) 3 ljiljan(a) srebrne boje. Stit je uokviren trakom crvene boje na kojoj se nalazi(e) 6 zvezde crne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita.  Preko osnovne kompozicije je postavljen 1 javorov list zlatne boje.
+28. Neispravan blazon! Naveli ste 2 boje(a), a samo 1 naboj(a): 'maple leaf Or, Argent' 
+29. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 sacme. Na traci(trakama) se nalazi(e) 3 ljiljan(a) srebrne boje. Stit je uokviren trakom crvene boje na kojoj se nalazi(e) 6 zvezde crne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita.  Preko osnovne kompozicije je postavljeno 5 javorova lista zlatne srebrne ljubicaste i plave boje.
+30. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 sacme. Na traci(trakama) se nalazi(e) 3 ljiljan(a) srebrne boje. Stit je uokviren trakom crvene boje na kojoj se nalazi(e) 6 zvezde crne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+31. Stit srebrne boje na kom se nalazi(e)  1 zvezda crne boje, 2 ljiljan(a) plave boje po sredini vertikalno,  i  1 ruza crvene boje u donjem delu stita
+32. Stit zlatne i plave boje podeljen na dva dela tako da linije podele obrazuju ^
+33. Stit srebrne i crne boje podeljen na dva dela po levoj dijagonali
+34. Stit crvene i zelene boje podeljen na dva dela po horizontali
