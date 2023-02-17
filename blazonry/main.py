@@ -38,9 +38,6 @@ def main(turtle_field_color, turtle_party, turtle_chief,turtle_bordure, turtle_o
     if turtle_bordure is not None:
         bordure(colors[turtle_bordure])
 
-
-
-
         
 def draw_field(turtle_field_color):
     if type(turtle_field_color) == str:
@@ -88,12 +85,8 @@ def get_party_function(party_name):
 
 
 if __name__ == "__main__":
-    print("main")
-    print("    = = = == = = main")
-    # print(sys.argv[1])
-    # current_dir = os.path.dirname(__file__)
+    print("    - -- - Dobrodosli - -- -")
     mm = metamodel_from_file("blazonry.tx")
-    # m = mm.model
     command = ''
     while command.lower() != 'x':
         blz = input("\n>> Unesite blazon(X za prekid rada programa): ")
@@ -102,12 +95,6 @@ if __name__ == "__main__":
             my_model = mm.model_from_str(blz+'.')          
             blazonry = Blazonry()
             turtle_field_color, turtle_party, turtle_chief,turtle_bordure, turtle_ordinary, turtle_ordinary_color = blazonry.interpret(my_model) 
-            # print("turtle_field_color",turtle_field_color )
-            # print("turtle_party", turtle_party)
-            # print("turtle_chief",turtle_chief)
-            # print("turtle_bordure",turtle_bordure)
-            # print("turtle_ordinary",turtle_ordinary)
-            # print("turtle_ordinary_color",turtle_ordinary_color)
             turtle.reset()
             turtle.shape(name='turtle')
             main(turtle_field_color, turtle_party, turtle_chief,turtle_bordure, turtle_ordinary, turtle_ordinary_color)

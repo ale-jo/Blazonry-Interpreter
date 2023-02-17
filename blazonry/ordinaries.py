@@ -141,41 +141,6 @@ def chevron(color= '#556B2F'):
 
     turtle.end_fill()
 
-
-
-    #-----
-    # turtle.left(100)
-    # turtle.forward(198)
-    # turtle.right(76)
-    # turtle.forward(198)
-
-    # turtle.left(90)
-    # turtle.speed(0)
-    # for x in range(30):
-    #     turtle.forward(3)
-    #     turtle.left(1)
-
-
-    #-----
-
-    
-
-
-    # turtle.end_fill()
-
-
-    # turtle.left(90)
-    # turtle.forward(85)
-    # turtle.left(52)
-    # turtle.forward(379)
-    # turtle.left(85)
-    # turtle.speed(0)
-    # for x in range(40):
-    #     turtle.forward(3)
-    #     turtle.left(1)
-    # turtle.end_fill()
-
-
 def pall(color= '#556B2F'):
     turtle.penup()
     turtle.home()
