@@ -67,7 +67,12 @@ class Blazonry(object):
             'Per Bend': 'podeljen na dva dela po levoj dijagonali',
             'Per Saltire':'podeljen na cetiri dela po dijagonalama',
             'Per Chevron':'podeljen na dva dela tako da linije podele obrazuju ^',
-            'Per Pall':'podeljen na tri dela tako da linije podele obrazuju Y'
+            'Per Pall':'podeljen na tri dela tako da linije podele obrazuju Y',
+            'Bary': 'na horizontalne pruge',
+            'Paly': 'na vertikalne pruge',
+            'Bendy': 'na dijagonalne pruge',
+            'Lozengy':'na romboide',
+            'Gyronny':'na kvadratice'
         }
 
         self.numbers = {

@@ -29,6 +29,13 @@
 29. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 sacme. Na traci(trakama) se nalazi(e) 3 ljiljan(a) srebrne boje. Stit je uokviren trakom crvene boje na kojoj se nalazi(e) 6 zvezde crne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita.  Preko osnovne kompozicije je postavljeno 5 javorova lista zlatne srebrne ljubicaste i plave boje.
 30. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje, koja se nalazi izmedju 2 sacme. Na traci(trakama) se nalazi(e) 3 ljiljan(a) srebrne boje. Stit je uokviren trakom crvene boje na kojoj se nalazi(e) 6 zvezde crne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
 31. Stit srebrne boje na kom se nalazi(e)  1 zvezda crne boje, 2 ljiljan(a) plave boje po sredini vertikalno,  i  1 ruza crvene boje u donjem delu stita
-32. Stit zlatne i plave boje podeljen na dva dela tako da linije podele obrazuju ^
-33. Stit srebrne i crne boje podeljen na dva dela po levoj dijagonali
-34. Stit crvene i zelene boje podeljen na dva dela po horizontali
+32. Stit plave i zelene boje podeljen na dva dela tako da linije podele obrazuju ^, sa trakom po levoj dijagonali - crvene boje. Preko gornje ivice stita nalazi se traka zlatne boje na kojoj se nalazi(e)  i 3 pahuljice srebrne boje. Stit je uokviren trakom ljubicaste boje na kojoj se nalazi(e) 3 zvezde zlatne boje. 
+33. Stit zlatne i plave boje podeljen na dva dela tako da linije podele obrazuju ^
+34. Stit srebrne i crne boje podeljen na dva dela po levoj dijagonali
+35. Stit crvene i zelene boje podeljen na dva dela po horizontali
+36. Stit crvene plave i srebrne boje na horizontalne pruge
+37. Stit crvene plave i srebrne boje na horizontalne pruge. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+38. Stit crvene plave i srebrne boje na vertikalne pruge. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+39. Stit crvene plave i srebrne boje na dijagonalne pruge. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+40. Stit crvene plave i srebrne boje na romboide. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
+41. Stit crvene plave i srebrne boje na kvadratice. Stit je uokviren trakom plave boje na kojoj se nalazi(e) 6 zvezde zlatne boje: 3 na vrhu, 2 u sredini, 1 u osnovi stita. 
