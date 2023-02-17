@@ -73,7 +73,6 @@ def per_bend(color = '#556B2F'):
     turtle.forward(435)
     turtle.left(98)
 
-    # turtle.circle(105,62)
     for x in range(43):
         turtle.forward(3)
         turtle.left(1)
@@ -95,7 +94,6 @@ def per_saltire(color = '#556B2F'):
     turtle.forward(434)
     turtle.right(83)
 
-    # turtle.circle(105,62)
     for x in range(105):
         turtle.forward(3)
         turtle.right(1)
@@ -114,7 +112,7 @@ def per_chervon(color = '#556B2F'):
     turtle.forward(344)
     turtle.left(90)
     turtle.forward(200)
-    # turtle.right(90)
+
     turtle.speed(0)
     for x in range(40):
         turtle.forward(3)
@@ -128,15 +126,11 @@ def per_chervon(color = '#556B2F'):
     turtle.speed(0)
     turtle.circle(150,50)
 
-    # for x in range(60):
-    #     turtle.forward(2)
-    #     turtle.left(1)
     turtle.end_fill()
 
 
 def per_pall(color1= '#556B2F', color2= '#8FBC8F'):
 
-    # turtle.setposition(0.0,200.0)
     turtle.home()
     turtle.color(color1)
     turtle.begin_fill()
@@ -163,7 +157,6 @@ def per_pall(color1= '#556B2F', color2= '#8FBC8F'):
     turtle.color(color2)
     turtle.begin_fill()
 
-    # turtle.right(1)
     turtle.pendown()
     turtle.right(6)
     turtle.forward(200)
@@ -180,29 +173,7 @@ def per_pall(color1= '#556B2F', color2= '#8FBC8F'):
         turtle.right(1)
     turtle.end_fill()
 
-    # turtle.color(field_color)
     turtle.penup()
-
-def per_pall_second_part(color2):
-    #second part 
-    turtle.setposition(-344.0,0.0)
-    turtle.color(color2)
-    turtle.begin_fill()
-
-    turtle.right(1)
-    turtle.forward(200)
-    turtle.right(90)
-    turtle.forward(172)
-    turtle.right(90)
-    turtle.forward(170)
-    turtle.right(45)
-    turtle.forward(193)
-    turtle.right(98)
-
-    for x in range(43):
-        turtle.forward(3)
-        turtle.right(1)
-    turtle.end_fill()
 
     
 
