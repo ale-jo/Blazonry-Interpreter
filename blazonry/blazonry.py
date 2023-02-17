@@ -85,16 +85,19 @@ class Blazonry(object):
         
    
 
-    def interpret(self, model, output_path):
+    def interpret(self, model, output_path=''):
         rbr = 1
         result_for_file = ""
+        turtle_field_color, turtle_party, turtle_chief,turtle_bordure, turtle_ordinary, turtle_ordinary_color = None, None, None, None, None, None
         for field in model.fields:
 
             if field.__class__.__name__ == "SimpleField":
                 try:
                     field_color = self.colors[field.color]
+                    turtle_field_color = field.color
                 except:
                     result = "pogresna boja stita"
+                    turtle_field_color = None
                     # print("pogresna boja stita")
                     break   
                 
@@ -111,12 +114,16 @@ class Blazonry(object):
                     if len(field.color) !=0:
                         colors = analyze_colors(self,field.color)
                         result += colors + "boje"
+                        turtle_field_color = field.color
                     if field.party is not None:
                         field_party = self.party[field.party]
                         result += " "+field_party
+                        turtle_party = field.party
                     if field.charges.__class__.__name__ == "ChargesThereIsOrdinary":
                         ordinary = self.ordinary[field.charges.ordinary.ordinary]
                         ordinary_color = self.colors[field.charges.ordinary.color]
+                        turtle_ordinary = field.charges.ordinary.ordinary
+                        turtle_ordinary_color = field.charges.ordinary.color
                         result += ", " + ordinary + " - " + ordinary_color + " boje"
                         if field.charges.chargesOnTheFiled is not None:
                             charges_on_the_field = self.charges[field.charges.chargesOnTheFiled.charge]
@@ -147,6 +154,7 @@ class Blazonry(object):
                     if field.chief is not None:
                         chief_color =self.colors[field.chief.color]
                         result += ". Preko gornje ivice stita nalazi se traka " + chief_color + " boje"
+                        turtle_chief = field.chief.color
                         if len(field.chief.charge) != 0: #samo ako ima naboja na chief-u
                             result += " na kojoj se nalazi(e) "
 
@@ -161,6 +169,7 @@ class Blazonry(object):
                     
                     if field.bordure is not None:
                         bordure_color =self.colors[field.bordure.color]
+                        turtle_bordure = field.bordure.color
                         for idx, charge in enumerate(field.bordure.charges):
                             suma_pozicija = add(self, charge.numbers)
                             if len(charge.numbers) == 0 or int(self.numbers[charge.number]) == suma_pozicija:
@@ -205,8 +214,9 @@ class Blazonry(object):
                 print("" + str(rbr) +".",result)
                 result_for_file += str(rbr) +". " + result + "\n"
                 rbr +=1
-
-        save_in_file(output_path,result_for_file)
+        if output_path != '':
+            save_in_file(output_path,result_for_file)
+        return turtle_field_color, turtle_party, turtle_chief,turtle_bordure, turtle_ordinary, turtle_ordinary_color
         
 
 
