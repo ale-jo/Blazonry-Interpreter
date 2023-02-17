@@ -16,7 +16,7 @@ def blazonry_language():
     "blazonry language"
     current_dir = os.path.dirname(__file__)
     mm = metamodel_from_file(os.path.join(current_dir, 'blazonry.tx'))
-    my_model = mm.model_from_file('p.txt')
+    # my_model = mm.model_from_file('p.txt')
     # Here if necessary register object processors or scope providers
     # http://textx.github.io/textX/stable/metamodel/#object-processors
     # http://textx.github.io/textX/stable/scoping/
@@ -30,4 +30,6 @@ def blazonry_generate_files(metamodel, model, output_path, overwrite, debug):
     print(output_file)
     blazonry = Blazonry()
     blazonry.interpret(model,output_file)
+
+
    
