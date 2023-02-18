@@ -11,14 +11,14 @@ import turtle
 from blazonry import Blazonry 
 
 colors = {
-            "Azure":"blue",
+            "Azure":"#224DB1", #blue
             "Vert":"green",
-            "Gules":"red",
+            "Gules":"#DC0000", #red
             "Sable":"black",
-            "Purpure":"violet",
+            "Purpure":"#6B006B", #violet #AB4ED8
             "Ermine":"gray",
             "Vair":"gray",
-            "Or":"gold",
+            "Or":"#F7EF8A", #gold
             "Argent":"silver"
         }
 
