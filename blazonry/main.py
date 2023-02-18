@@ -18,7 +18,7 @@ colors = {
             "Purpure":"#6B006B", #violet #AB4ED8
             "Ermine":"gray",
             "Vair":"gray",
-            "Or":"#F7EF8A", #gold
+            "Or":"#gold", 
             "Argent":"silver"
         }
 

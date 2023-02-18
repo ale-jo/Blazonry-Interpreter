@@ -181,10 +181,12 @@ def pall(color= '#556B2F'):
     turtle.end_fill()
 
 def chief(color= '#556B2F'):
+    turtle.penup()
     turtle.speed(6)
     turtle.home()
     turtle.setposition(0,80)
     turtle.color(color)
+    turtle.pendown()
     turtle.begin_fill()
 
     turtle.left(90)
@@ -202,7 +204,7 @@ def bordure(color= '#556B2F'):
     turtle.penup()
     turtle.home()
     turtle.color(color)
-    turtle.pensize(38)
+    turtle.pensize(34)
     turtle.pendown()
     turtle.speed(6)
     turtle.left(90)
